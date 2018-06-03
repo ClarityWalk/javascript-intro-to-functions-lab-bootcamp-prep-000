@@ -24,11 +24,12 @@ function sayHitToGrandma(string){
   var mixedcase "I love you, Grandma."
   
   if (string === uppercase){
-    return "YES INDEED!"
-  } 
+   return "YES INDEED!"
+   } 
+  else if (sting === lowercase){
+   return "I can\'t hear you!"
+   }
  else if (string === mixedcase){
    return "I love you, too."
- }
- else if (sting === lowercase)
-   return "I can\'t hear you!"
+   }
 }
