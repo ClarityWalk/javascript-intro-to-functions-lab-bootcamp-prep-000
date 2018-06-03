@@ -26,10 +26,12 @@ function sayHiToGrandma(string){
   if (string === uppercase){
    return "YES INDEED!"
    } 
-  else if (sting === lowercase){
+  
+  if (sting === lowercase){
    return "I can\'t hear you!"
    }
- else if (string === mixedcase){
+ 
+ if (string === mixedcase){
    return "I love you, too."
    }
 }
